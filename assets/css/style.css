@@ -1,0 +1,48 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f7f9;
+    color: #333;
+}
+
+.card {
+    border-radius: 18px;
+    border: 1px solid #e0dff1;
+    box-shadow: 0 0 10px rgba(155, 0, 255, 0.05);
+    transition: 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 4px 20px rgba(155, 0, 255, 0.1);
+}
+
+.btn-primary {
+    background-color: #9B00FF;
+    border: none;
+}
+
+.btn-primary:hover {
+    background-color: #7e00cc;
+}
+
+.btn-success {
+    background-color: #00C3FF;
+    border: none;
+}
+
+.btn-success:hover {
+    background-color: #00a3d4;
+}
+
+a {
+    color: #9B00FF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #7e00cc;
+}
+
+.form-control {
+    border-radius: 12px;
+}
